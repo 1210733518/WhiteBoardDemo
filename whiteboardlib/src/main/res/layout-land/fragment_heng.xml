@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="440dp"
+              android:layout_height="40dp"
+              android:layout_marginLeft="50dp"
+              android:background="@drawable/henggongjukan">
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:background="@drawable/henggongjukan"
+        android:src="@drawable/luzhi"/>
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:background="@drawable/henggongjukan"
+        android:src="@drawable/xiangpi"/>
+
+    <ImageButton
+        android:id="@+id/btn_save"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:background="@drawable/henggongjukan"
+        android:src="@drawable/baocun"/>
+
+    <ImageButton
+        android:id="@+id/btn_empty"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:background="@drawable/henggongjukan"
+        android:src="@drawable/shanchu"/>
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:background="@drawable/henggongjukan"
+        android:src="@drawable/yeqian"/>
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:background="@drawable/henggongjukan"
+        android:src="@drawable/lianjiebi"/>
+
+</LinearLayout>

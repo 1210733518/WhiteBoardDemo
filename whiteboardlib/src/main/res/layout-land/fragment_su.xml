@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="40dp"
+              android:layout_height="match_parent"
+    android:background="@drawable/shugongjulan">
+
+            <ImageView
+                style="@style/control_btn"
+                android:background="@drawable/shugongjulan"
+                android:layout_gravity="center"
+                android:src="@drawable/caidan"/>
+
+
+            <ImageView
+                android:id="@+id/btn_stroke"
+                style="@style/control_btn"
+                android:background="@drawable/shugongjulan"
+                android:layout_gravity="center"
+                android:src="@drawable/bi" />
+
+            <ImageView
+                android:id="@+id/btn_undo"
+                style="@style/control_btn"
+                android:background="@drawable/shugongjulan"
+                android:layout_gravity="center"
+                android:src="@drawable/xuanze" />
+
+            <ImageView
+                android:id="@+id/btn_eraser"
+                style="@style/control_btn"
+                android:background="@drawable/shugongjulan"
+                android:layout_gravity="center"
+                android:src="@drawable/xiangpi" />
+
+
+            <ImageView
+                android:id="@+id/btn_photo"
+                style="@style/control_btn"
+                android:background="@drawable/shugongjulan"
+                android:layout_gravity="center"
+                android:src="@drawable/xingzhuang" />
+
+            <ImageView
+                android:id="@+id/btn_background"
+                style="@style/control_btn"
+                android:background="@drawable/shugongjulan"
+                android:layout_gravity="center"
+                android:src="@drawable/shangsegongju" />
+
+            <ImageView
+                android:id="@+id/btn_drag"
+                style="@style/control_btn"
+                android:background="@drawable/shugongjulan"
+                android:layout_gravity="center"
+                android:src="@drawable/shouzhi" />
+
+            <ImageView
+                style="@style/control_btn"
+                android:background="@drawable/shugongjulan"
+                android:layout_gravity="center"
+                android:src="@drawable/zujian" />
+            <ImageView
+                android:id="@+id/btn_send"
+                android:visibility="gone"
+                style="@style/control_btnn"
+                android:layout_weight="1"
+                android:src="@drawable/ic_teacher" />
+            <ImageView
+                android:id="@+id/btn_add"
+                style="@style/control_btnn"
+                android:src="@drawable/ic_add_small" />
+            <ImageView
+                android:id="@+id/btn_redo"
+                style="@style/control_btnn"
+                android:alpha="0.4"
+                android:src="@drawable/ic_redo" />
+
+
+</LinearLayout>
